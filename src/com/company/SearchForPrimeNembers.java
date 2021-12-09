@@ -7,7 +7,7 @@ import java.util.List;
 public class SearchForPrimeNembers {
     public static void main(String[] args) {
         int[] ar = new int[99];
-        for (int i = 0; i < 99; i++) {
+        for (int i = 30; i < 99; i++) {
             ar[i] = i + 2;
         }
         List<Integer> arNum = new ArrayList<>();
